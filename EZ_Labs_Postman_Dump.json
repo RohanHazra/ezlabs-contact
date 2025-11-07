@@ -1,0 +1,48 @@
+{
+	"info": {
+		"_postman_id": "b1abe35a-5d4d-4c15-959d-49b59abbb78a",
+		"name": "EZ Labs Contact Form",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "46948029",
+		"_collection_link": "https://science-cosmonaut-136417-8735219.postman.co/workspace/Rohan-Hazra's-Workspace~d93676ee-d179-4bb4-8cd8-92be73c815c4/collection/46948029-b1abe35a-5d4d-4c15-959d-49b59abbb78a?action=share&source=collection_link&creator=46948029"
+	},
+	"item": [
+		{
+			"name": "https://vernanbackend.ezlab.in/api/contact-us/",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Rohan Hazra\",\r\n  \"email\": \"rohanhazraoriginal6996@gmail.com\",\r\n  \"phone\": \"9311263645\",\r\n  \"message\": \"This is a test message from Postman\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://vernanbackend.ezlab.in/api/contact-us/",
+					"protocol": "https",
+					"host": [
+						"vernanbackend",
+						"ezlab",
+						"in"
+					],
+					"path": [
+						"api",
+						"contact-us",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
